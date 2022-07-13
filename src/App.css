@@ -34,26 +34,124 @@
   }
 }
 .container{
-
-    height: 35%;
-    width: 40%;
-    border: 1px solid black;
-    border: none;
-}
-.container_box{
-  margin-top: 50px;
-  height: 600px;
-   width: 40%;
-    border: 1px solid black;
-    border-color: white;
-    overflow:scroll;
-   
+  /* border: 1px solid black; */
+  height: 80%;
+  width: 50%;
 
 }
-.emoji_box{
 
+.head{
+  background-color: rgb(247, 247, 252);
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(58, 58, 228);
+}
+.pic{
+  height: 20px;
+  width: 35px;
+  padding: 12px;
+}
+.content{
+display:inline-flex ;
+flex-direction: row;
 }
 .input_box{
+
+  height: 40px;
+  border: none;
+}
+.main_body{
   height: 35%;
-  width:50%;
+  width: 98%;
+  /* border: 1px solid yellow; */
+}
+.profile{
+  height: 60px;
+  width: 80px;
+  vertical-align: top;
+  margin-right: 200px;
+}
+.emoji_box{
+height: 300px;
+width: 50%;
+
+overflow: scroll;
+}
+.input_box{
+  height: 60px;
+  width:330px;
+  border: 1px solid transparent;
+}
+.gif_box{
+  height: 180px;
+  width: 50%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 48%);
+  
+  /* border: 1px smargin-bottom: 1009px;olid red; */
+}
+.gif_box> input{
+  height: 60%;
+  border-radius: 10px;
+  text-align: center;
+}
+.last{
+/* border: 1px solid black; */
+width: 48.5%;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: end;
+padding: 10px;
+}
+.lowest{
+height: 80%;
+width: 30%;
+/* border: 1px solid blue; */
+
+}
+.btn{
+height: 30px;
+width: 90px;
+border-radius: 5px;
+
+}
+.btn2{
+height: 30px;
+width: 90px;
+background-color: blue;
+color: white;
+border-radius: 5px;
+margin-left: 10px;
+}
+.input_search{
+    font-size: larger;
+    color: blue;
+    font-weight: bolder;
+}
+.btn3{
+  height: 30px;
+width: 90px;
+background-color: blue;
+color: white;
+border-radius: 5px;
+margin-right: 570px;
+
+}
+.second{
+  border: 1px solid black;
+  height: 150px;
+  width: 200px;
+  border: 1px solid white;
+  border: 1px solid transparent;
+ 
+}
+.best_pic{
+  height: 100px;
+  width: 150px;
+  border: 10px solid transparent
 }

@@ -1,13 +1,13 @@
 
 import './App.css';
 // api_key = "tTniyMdfesc6ZrV80yHcskCLqtqNyQnc";
-import Input from './components/Input';
-import Search from './components/Search';
+
+import Codemancer from "./Codemancer"
 function App() {
   return (
     <div className="App">
-      <Input />
-      <Search />
+      
+      <Codemancer />
     </div>
   );
 }
